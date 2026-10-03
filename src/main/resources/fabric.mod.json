@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "otraventana",
+  "version": "1.0.0",
+  "name": "Otra Ventana",
+  "description": "Muestra el texto ESTAS EN OTRA VENTANA en la esquina inferior cuando Minecraft pierde el foco o se minimiza.",
+  "authors": ["ovega"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.otraventana.OtraVentanaMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
